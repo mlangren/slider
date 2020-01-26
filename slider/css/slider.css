@@ -1,0 +1,19 @@
+
+#window{
+  height: 205px;
+  width: 205px;
+  overflow: show;
+  background-color: blue;
+}
+#imgs{
+  height: 600px;
+  width: 600px;
+  position: relative;
+  margin:2px;
+}
+#imgs2{
+  height: 600px;
+  width: 600px;
+  position: relative;
+  margin:2px;
+}
