@@ -4,10 +4,9 @@ var nummer = 0; //variabel som används för att veta vart i slider man är
 
 document.addEventListener('keypress', logKey); // Lyssnare på knapptryck
 
-//$(document).keypress(logKey);
-
+//Funktion som körs vid knapptryck
 function logKey(e) {
-
+//if satser för att avgöra vilket håll slidern ska åt
   if(nummer==0){
 
     $("#imgs").animate({right:"+204"},500,'linear');
@@ -36,10 +35,10 @@ function logKey(e) {
   }
 
 }
+//funktion vid click inom window  
+$("#window").click(function(){ 
 
-$("#window").click(function(){
-
-
+//if satser för att avgöra vilket håll slidern ska åt
   if(nummer==0){
 
     $("#imgs").animate({right:"+204"},500,'linear');
